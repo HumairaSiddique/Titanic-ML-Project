@@ -50,9 +50,9 @@ The model identified the following features as the most influential:
 ## Project Structure
 
 ```text
-Titanic-Survival-Prediction/
+Titanic_ML_Project/
 │
-├── Titanic_Survival_Prediction.ipynb
+├── Titanic_ML_Project.ipynb
 ├── README.md
 └── images/
     ├── confusion_matrix.png
