@@ -38,6 +38,9 @@ The model identified the following features as the most influential:
 2. Age
 3. Sex
 4. Pclass
+## Accuracy
+
+![Accuracy](images/accuracy.png)
 
 ## Confusion Matrix
 
@@ -45,7 +48,7 @@ The model identified the following features as the most influential:
 
 ## Feature Importance Graph
 
-![Feature Importance](images/feature_importance.png)
+![Feature Importance](images/feature importance.png)
 
 ## Project Structure
 
