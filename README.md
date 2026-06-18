@@ -59,7 +59,7 @@ Titanic_ML_Project/
 ├── README.md
 └── images/
     ├── confusion_matrix.png
-    └── feature_importance.png
+    └── feature importance.png
 ```
 
 ## Results
