@@ -48,7 +48,7 @@ The model identified the following features as the most influential:
 
 ## Feature Importance Graph
 
-![Feature Importance](images/feature importance.png)
+![Feature Importance](images/feature_importance.png)
 
 ## Project Structure
 
@@ -59,7 +59,7 @@ Titanic_ML_Project/
 ├── README.md
 └── images/
     ├── confusion_matrix.png
-    └── feature importance.png
+    └── feature_importance.png
 ```
 
 ## Results
