@@ -1,4 +1,4 @@
-# Titanic Survival Prediction
+# Titanic_ML_Project
 
 ## Project Overview
 
