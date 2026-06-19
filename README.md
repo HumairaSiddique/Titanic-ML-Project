@@ -1,70 +1,67 @@
-# Titanic_ML_Project 🚢
-
-This project uses Machine Learning to predict whether a passenger survived the Titanic disaster based on passenger information such as age, gender, fare, and passenger class.
+# Titanic Survival Prediction
 
 ## Project Overview
 
-The Titanic dataset is one of the most popular beginner Machine Learning datasets. In this project, data preprocessing, feature engineering, model training, and evaluation were performed to predict passenger survival.
-
-## Technologies Used
-
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Scikit-learn
+This project uses Machine Learning techniques to predict whether a passenger survived the Titanic disaster. The dataset was preprocessed, analyzed, and multiple classification models were trained and compared.
 
 ## Dataset
 
-Dataset Source:
-- Titanic Dataset from Kaggle
+* Source: Titanic Dataset (Kaggle)
+* Target Variable: Survived
+* Features Used:
 
-## Features Used
+  * Pclass
+  * Sex
+  * Age
+  * Fare
 
-- Passenger Class (Pclass)
-- Sex
-- Age
-- Fare
+## Data Preprocessing
+
+* Handled missing values in the Age column.
+* Converted categorical data (Sex) into numerical values.
+* Selected important features for model training.
+
+## Machine Learning Models
+
+1. Random Forest Classifier
+2. Logistic Regression
+3. Decision Tree Classifier
 
 ## Model Performance
 
-- Accuracy: **79%**
-
-## Feature Importance
-
-The model identified the following features as the most influential:
-
-1. Fare
-2. Age
-3. Sex
-4. Pclass
-## Accuracy
-
-![Accuracy](images/accuracy.png)
+| Model               | Accuracy |
+| ------------------- | -------- |
+| Random Forest       | 79.02%   |
+| Logistic Regression | 79.02%   |
+| Decision Tree       | 75.52%   |
 
 ## Confusion Matrix
 
 ![Confusion Matrix](images/confusion_matrix.png)
 
-## Feature Importance Graph
+## Feature Importance
 
 ![Feature Importance](images/feature_importance.png)
 
-## Project Structure
+## Model Accuracy Comparison
 
-```text
-Titanic_ML_Project/
-│
-├── Titanic_ML_Project.ipynb
-├── README.md
-└── images/
-    ├── confusion_matrix.png
-    └── feature_importance.png
-```
+![Model Accuracy Comparison](images/model_accuracy_comparison.png)
 
 ## Results
 
-The model achieved approximately **79% accuracy** in predicting passenger survival, demonstrating the effectiveness of basic machine learning techniques on structured data.
+* Random Forest and Logistic Regression achieved the highest accuracy (79.02%).
+* Decision Tree showed lower performance (75.52%).
+* Fare and Age were among the most influential features.
+* The final model successfully predicted passenger survival with approximately 79% accuracy.
+
+## Technologies Used
+
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Scikit-learn
 
 ## Author
 
